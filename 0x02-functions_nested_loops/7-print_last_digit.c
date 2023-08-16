@@ -5,7 +5,7 @@
  * Return: Value of the last dogit of number
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 
 {
 	int last;
@@ -16,5 +16,5 @@ int print_last_digit(int)
 	last = last * -1;
 	}
 	_putchar(last * '0');
-	return (last)
+	return (last);
 }
